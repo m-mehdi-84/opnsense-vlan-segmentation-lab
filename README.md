@@ -98,18 +98,26 @@ The configuration was tested and verified:
 
 ## Screenshots
 
-All screenshots are stored in:
+### VLAN Configuration
+![VLAN Configuration](docs/images/01-vlan-configuration.png)
 
-docs/images/
+### Interface Assignments
+![Interfaces](docs/images/02-interfaces-ip.png)
 
-Included:
+### DHCP Configuration (Dnsmasq)
+![DHCP](docs/images/03-dhcp-dnsmasq.png)
 
-- VLAN configuration  
-- Interface setup  
-- DHCP configuration (Dnsmasq)  
-- Firewall rules (block + allow)  
-- IP configuration (Server & Client)  
-- Connectivity test results  
+### Firewall Rules – Server VLAN
+![Server Firewall](docs/images/04-server-firewall-rules.png)
+
+### Firewall Rules – Client VLAN
+![Client Firewall](docs/images/05-client-firewall-rules.png)
+
+### Server IP Configuration
+![Server IP](docs/images/06-server-ipconfig.png)
+
+### Client Test (Ping Block)
+![Client Test](docs/images/07-client-test.png)
 
 ---
 
