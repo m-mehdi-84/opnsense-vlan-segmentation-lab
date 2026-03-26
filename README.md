@@ -98,8 +98,8 @@ The configuration was tested and verified:
 
 ## Screenshots
 
-### VLAN Configuration
-![VLAN Configuration](docs/images/01-vlan-configuration.png)
+### VLAN Configurations
+![VLAN Configurations](docs/images/01-vlan-configurations.png)
 
 ### Interface Assignments
 ![Interfaces](docs/images/02-interfaces-ip.png)
