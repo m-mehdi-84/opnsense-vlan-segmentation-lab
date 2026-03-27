@@ -185,11 +185,11 @@ Result:
 
 ## Problems Encountered and Fixes
 
-1. DHCP interface differences in OPNsense  
-Older instructions referenced DHCPv4, but current version uses Dnsmasq and Kea.
+1. DHCP configuration in OPNsense  
+The DHCP setup differs in the current OPNsense version, where Dnsmasq is used instead of the legacy DHCPv4 interface.
 
 Fix:
-- Used Dnsmasq DNS & DHCP
+- Configured DHCP using Dnsmasq DNS & DHCP for both VLAN interfaces
 
 2. Existing LAN already in use  
 The original network was active.
